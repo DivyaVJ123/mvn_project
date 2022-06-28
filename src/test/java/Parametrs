@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="methods" name="Suite" thread-count="5">
+<parameter name="browser" value="chrome"/>
+<parameter name="url" value="https://www.facebook.com/"/>
+
+  <test name="Test">                              //parallel execution
+    <classes>
+      <class name="Maven.mvn_project.Parameters1"/>
+       <class name="Maven.mvn_project.parameters3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

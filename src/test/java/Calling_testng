@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="Maven.mvn_project.Test_Ng2"/>
+      <class name="Maven.mvn_project.class1_annotations"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

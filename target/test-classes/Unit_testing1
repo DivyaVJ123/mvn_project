@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <exclude name="santity"/>
+  <include name="regression"/>
+   </run>
+   </groups>
+    <classes>
+      <class name="Maven.mvn_project.Unit_testing"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
